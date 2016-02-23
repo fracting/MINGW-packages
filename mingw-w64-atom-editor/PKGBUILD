@@ -12,6 +12,7 @@ license=('MIT')
 options=()
 sha256sums=('SKIP')
 makedepends=("${MINGW_PACKAGE_PREFIX}-ninja"
+             "${MINGW_PACKAGE_PREFIX}-node"
              "${MINGW_PACKAGE_PREFIX}-python2"
              "git")
 
