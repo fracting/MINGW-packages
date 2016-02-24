@@ -5,7 +5,7 @@
 _realname=nodejs
 pkgname="${MINGW_PACKAGE_PREFIX}-${_realname}"
 pkgver=0.10.40
-pkgrel=1
+pkgrel=2
 pkgdesc="Evented I/O for V8 javascript (mingw-w64)"
 arch=('any')
 url="http://nodejs.org/"
