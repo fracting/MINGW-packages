@@ -4,7 +4,7 @@ _realname=h5py
 pkgname=("${MINGW_PACKAGE_PREFIX}-python2-$_realname"
          "${MINGW_PACKAGE_PREFIX}-python3-$_realname")
 pkgver=2.5.0
-pkgrel=1
+pkgrel=2
 pkgdesc="General-purpose Python bindings for the HDF5 library (mingw-w64)"
 arch=('any')
 url="http://www.h5py.org"
