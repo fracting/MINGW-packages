@@ -432,6 +432,8 @@ prepare() {
 }
 
 build() {
+  ls -al
+  pwd
   cd ${CARCH}
   touch qtbase/.gitignore
 
