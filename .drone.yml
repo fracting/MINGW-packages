@@ -1,5 +1,5 @@
 build:
-  image: fracting/msys32:w1.9.5-m2.5.0
+  image: fracting/msys32:w1.9.5-m2.5.0-5
   pull: true
   shell: msys32
   commands:
