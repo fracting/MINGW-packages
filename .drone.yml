@@ -3,8 +3,7 @@ build:
   pull: true
   shell: msys$$arch
   commands:
-    - export RUNTEST=$$runtest
-    - ./ci-build.sh
+    - if [ "$$arch" = 32 ]; then true; else false; fi
 
 notify:
   irc:
